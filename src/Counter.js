@@ -28,6 +28,7 @@ function Counter() {
             <form onSubmit={(e) => byAmount(e)}>
                 <input type="number" onChange={(e) => setInput(e.target.value)} />
                 <button type="submit">Submit</button>
+                <button type="reset" value="clear">clear</button>
             </form>
         </div>
     )
